@@ -1,0 +1,80 @@
+This part of the code will switch back and forth between the players
+
+-we need to specify the columns on the board
+
+-this program needs to keep in mind if colunms are full or not
+
+int location();
+
+int main()
+{
+int player1=1; //red \e[1;31m
+int player2=2; //blue \e[1;34m
+
+     while (board != full) //this bit will keep running until board is full
+        {
+            int location;
+
+            prinf("Player 1 type your column number(1-7)/n");
+            scanf("%d", &location);
+            chipPosition();    
+           
+            prinf("Player 2 type your column number(1-7)/n");
+            scanf("%d", &location);
+            chipPosition();
+
+        
+        }
+    return location;
+}
+         
+      
+int location(int loc)
+{
+    int place;
+        if (place==1) //places chip in the FIRST colunm 
+            { 
+            //needs to read the board and choose
+            printf("O");
+            }
+        else if (location==2) //places chip in the SECOND colunm 
+            { 
+            //needs to read the board and choose
+            printf("O");
+            } 
+        else if (location==3) //places chip in the THIRD colunm 
+            { 
+            //needs to read the board and choose
+            printf("O");
+            }   
+        else if (location==4) //places chip in the FOURTH colunm 
+            { 
+            //needs to read the board and choose
+            printf("O");
+            }
+        else  if (location==5) //places chip in the FIFTH colunm 
+            { 
+            //needs to read the board and choose
+            printf("O");
+            }
+        else  if (location==6) //places chip in the SIXTH colunm 
+            { 
+            //needs to read the board and choose
+            printf("O");
+            } 
+        else  if (location==7) //places chip in the SEVENTH colunm 
+            { 
+            //needs to read the board and choose
+            printf("O");
+            }
+        else
+            {
+            printf(Please select a)
+            }
+
+return 0;
+        
+        
+        }
+        
+        
