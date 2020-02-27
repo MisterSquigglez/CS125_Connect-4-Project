@@ -1,0 +1,53 @@
+Connect 4 
+Raschel & Priyanshu
+
+
+To Do
+=======================================
+-Switch between red/yellow during turns
+    Indicate whose turn it is
+    Use an array
+    For turns: Use for loop
+        Total turns: 42
+    
+-Check for invalid input or if a column is full
+    Invalid inputs: Use while loop
+
+-Make sure the program reads the right color and makes sure they are in a row
+    Assign a value or 1 or 2 depending on color of chip
+    Add animation?
+    Make sure chip goes to the bottom of each column
+
+-Check all possible win conditions
+
+-Use array for storing input
+    Use a for loop with x and y to check win conditions
+
+-Check every turn for a win and also check if a tie has occcured
+
+-Annouce the winner at the end or tie/draw
+
+
+Information to Know
+=======================================
+-Possible Win Conditions
+    Vertical Wins:      7x3     21
+    Horizonal Wins:     6x4     24
+    Forward Slash Wins: 3x4     12
+    Backward Slash wins 3x4     12
+
+-Total Win Combinations: 69
+
+
+Example of reading win conditions (Horizontal):
+
+
+for (color = 1; color < 3; color++){
+for (xshift = 0; xshift < 4; xshift++){
+    for (x = 0 + xshift; x < 4 + xshift; x++){
+        for (y = 0; y < 6; y++){
+            if (array[x][y] == color array [x][y] == color array[x][y] == color array [x][y] == color){
+            Code
+       }
+    }
+}
